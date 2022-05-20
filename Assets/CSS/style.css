@@ -47,7 +47,7 @@ header {
   
   /* Section hero */
   .s-hero {
-    background: url(../img/s-hero-bg.jpg);
+    background: url(../bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -65,16 +65,16 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 59.2rem;
-    margin-top: 24rem;
-    padding-bottom: 6rem;
+    max-width: 59.1rem;
+    margin-top: 7rem;
+    padding-bottom: 5rem;
   }
   
   .s-hero .container .title h1 {
     font-family: "Inter";
-    font-weight: 700;
-    font-size: 6.4rem;
-    line-height: 7.7rem;
+    font-weight: 600;
+    font-size: 6.2rem;
+    line-height: 5,2rem;
     text-align: center;
     color: var(--white-color);
   }
@@ -92,13 +92,7 @@ header {
     margin-bottom: 3.2rem;
   }
   
-  .s-hero .container .title p {
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 2.7rem;
-    text-align: center;
-    color: rgba(220, 246, 75, 0.8);
-  }
+
   
   .s-hero .container .title .techs {
     display: flex;
@@ -121,7 +115,8 @@ header {
   }
   
   .s-success .container {
-    display: flex;
+    display:flex;
+    
     align-items: center;
     gap: 4.4rem;
   }
@@ -132,6 +127,7 @@ header {
   
   .s-success .container .cards {
     display: flex;
+   
   }
   
   .s-success .container .cards .card {
@@ -203,7 +199,7 @@ header {
     font-weight: 400;
     line-height: 2.4rem;
     font-size: 1.6rem;
-    color: rgba(255, 255, 255, 0.83);
+    color: rgb(232, 255, 29);
     margin-top: 2.4rem;
   }
   
@@ -232,7 +228,7 @@ header {
   
   .s-cases .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: flex;
   }
   .s-cases .container .title-cases {
     margin-bottom: 7.3rem;
